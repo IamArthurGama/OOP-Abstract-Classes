@@ -32,20 +32,11 @@
         <mxCell id="jJWzauPY2B2Ychn6FYt0-5" value="Banco" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="30" width="160" height="158" as="geometry" />
         </mxCell>
-        <mxCell id="jJWzauPY2B2Ychn6FYt0-6" value="- nome: string&lt;div&gt;- codigoBanco: string&lt;/div&gt;&lt;div&gt;- cnpj: string&lt;/div&gt;&lt;div&gt;- agencia: Agencia&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;+ Codigo&lt;/div&gt;&lt;div&gt;+ Cnpj&lt;/div&gt;&lt;div&gt;+ Agencia&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jJWzauPY2B2Ychn6FYt0-5" vertex="1">
+        <mxCell id="jJWzauPY2B2Ychn6FYt0-6" value="- nome: string&lt;div&gt;- codigoBanco: string&lt;/div&gt;&lt;div&gt;- cnpj: string&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;+ Codigo&lt;/div&gt;&lt;div&gt;+ Cnpj&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jJWzauPY2B2Ychn6FYt0-5" vertex="1">
           <mxGeometry y="26" width="160" height="124" as="geometry" />
         </mxCell>
         <mxCell id="jJWzauPY2B2Ychn6FYt0-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="jJWzauPY2B2Ychn6FYt0-5" vertex="1">
           <mxGeometry y="150" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="4OslB2eF-CjLVjbjGeAa-1" value="Agencia" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="30" width="160" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="4OslB2eF-CjLVjbjGeAa-2" value="- codigoAgencia: string&lt;div&gt;- nome: string&lt;/div&gt;&lt;div&gt;+ Codigo&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4OslB2eF-CjLVjbjGeAa-1">
-          <mxGeometry y="26" width="160" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="4OslB2eF-CjLVjbjGeAa-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4OslB2eF-CjLVjbjGeAa-1">
-          <mxGeometry y="90" width="160" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
