@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="Página-1" id="cBQcUYq1oYgDmPjxSbHU">
-    <mxGraphModel dx="4424" dy="2252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1301" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
           <mxGeometry y="168" width="170" height="72" as="geometry" />
         </mxCell>
         <mxCell id="jJWzauPY2B2Ychn6FYt0-5" value="Banco" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="50" width="160" height="158" as="geometry" />
+          <mxGeometry x="360" y="140" width="160" height="158" as="geometry" />
         </mxCell>
         <mxCell id="jJWzauPY2B2Ychn6FYt0-6" value="- nome: string&lt;div&gt;- codigoBanco: string&lt;/div&gt;&lt;div&gt;- cnpj: string&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;+ Codigo&lt;/div&gt;&lt;div&gt;+ Cnpj&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jJWzauPY2B2Ychn6FYt0-5" vertex="1">
           <mxGeometry y="26" width="160" height="124" as="geometry" />
@@ -30,7 +30,7 @@
           <mxGeometry y="150" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="4OslB2eF-CjLVjbjGeAa-5" value="Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="370" width="150" height="158" as="geometry" />
+          <mxGeometry x="640" y="370" width="150" height="158" as="geometry" />
         </mxCell>
         <mxCell id="4OslB2eF-CjLVjbjGeAa-6" value="- nome: string&lt;div&gt;- cpf: string&lt;/div&gt;&lt;div&gt;- telefone: string&lt;/div&gt;&lt;div&gt;- endereco: string&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;+ Cpf&lt;/div&gt;&lt;div&gt;+ Telefone&lt;/div&gt;&lt;div&gt;+ Endereco&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4OslB2eF-CjLVjbjGeAa-5">
           <mxGeometry y="26" width="150" height="124" as="geometry" />
