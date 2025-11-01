@@ -20,22 +20,22 @@
         <mxCell id="V-y-ZnDK1pdqojtrsZkq-4" value="+ sacar()&lt;div&gt;+ transferir()&lt;/div&gt;&lt;div&gt;+ depositar()&lt;/div&gt;&lt;div&gt;+ verificarSaldo()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V-y-ZnDK1pdqojtrsZkq-1" vertex="1">
           <mxGeometry y="148" width="170" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="jJWzauPY2B2Ychn6FYt0-1" value="Cartao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jJWzauPY2B2Ychn6FYt0-1" value="Cartao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="30" width="160" height="168" as="geometry" />
         </mxCell>
-        <mxCell id="jJWzauPY2B2Ychn6FYt0-2" value="- conta: Conta&lt;div&gt;&lt;div&gt;- validade: date&lt;/div&gt;&lt;div&gt;- cvv: int&lt;/div&gt;&lt;div&gt;- numero: int&lt;/div&gt;&lt;div&gt;- nome: string&lt;/div&gt;&lt;div&gt;+ Conta&lt;/div&gt;&lt;div&gt;+ Banco&lt;/div&gt;&lt;div&gt;+ Cliente&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jJWzauPY2B2Ychn6FYt0-1">
+        <mxCell id="jJWzauPY2B2Ychn6FYt0-2" value="- conta: Conta&lt;div&gt;&lt;div&gt;- validade: date&lt;/div&gt;&lt;div&gt;- cvv: int&lt;/div&gt;&lt;div&gt;- numero: int&lt;/div&gt;&lt;div&gt;- nome: string&lt;/div&gt;&lt;div&gt;+ Conta&lt;/div&gt;&lt;div&gt;+ Banco&lt;/div&gt;&lt;div&gt;+ Cliente&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jJWzauPY2B2Ychn6FYt0-1" vertex="1">
           <mxGeometry y="26" width="160" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="jJWzauPY2B2Ychn6FYt0-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="jJWzauPY2B2Ychn6FYt0-1">
+        <mxCell id="jJWzauPY2B2Ychn6FYt0-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="jJWzauPY2B2Ychn6FYt0-1" vertex="1">
           <mxGeometry y="160" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="jJWzauPY2B2Ychn6FYt0-5" value="Banco" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="30" width="160" height="148" as="geometry" />
+        <mxCell id="jJWzauPY2B2Ychn6FYt0-5" value="Banco" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="30" width="160" height="148" as="geometry" />
         </mxCell>
-        <mxCell id="jJWzauPY2B2Ychn6FYt0-6" value="- nome: string&lt;div&gt;- codigoBanco: string&lt;/div&gt;&lt;div&gt;- cnpj: string&lt;/div&gt;&lt;div&gt;- agencia: int&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;+ Cnpj&lt;/div&gt;&lt;div&gt;+ Agencia&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jJWzauPY2B2Ychn6FYt0-5">
+        <mxCell id="jJWzauPY2B2Ychn6FYt0-6" value="- nome: string&lt;div&gt;- codigoBanco: string&lt;/div&gt;&lt;div&gt;- cnpj: string&lt;/div&gt;&lt;div&gt;- agencia: int&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;+ Cnpj&lt;/div&gt;&lt;div&gt;+ Agencia&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jJWzauPY2B2Ychn6FYt0-5" vertex="1">
           <mxGeometry y="26" width="160" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="jJWzauPY2B2Ychn6FYt0-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="jJWzauPY2B2Ychn6FYt0-5">
+        <mxCell id="jJWzauPY2B2Ychn6FYt0-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="jJWzauPY2B2Ychn6FYt0-5" vertex="1">
           <mxGeometry y="140" width="160" height="8" as="geometry" />
         </mxCell>
       </root>
