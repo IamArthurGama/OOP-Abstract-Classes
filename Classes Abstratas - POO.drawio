@@ -5,38 +5,47 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="V-y-ZnDK1pdqojtrsZkq-1" value="Conta" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="30" width="170" height="220" as="geometry">
+          <mxGeometry x="50" y="30" width="170" height="320" as="geometry">
             <mxRectangle x="180" y="40" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <object label="- cliente: Cliente&lt;div&gt;- banco: Banco&lt;/div&gt;&lt;div&gt;- taxaSaque: decimal&lt;/div&gt;&lt;div&gt;- taxaTransferencia: decimal&lt;/div&gt;&lt;div&gt;- anuidade: decimal&lt;/div&gt;&lt;div&gt;- codigoConta: string&lt;/div&gt;&lt;div&gt;- valorInvestido: decimal&lt;/div&gt;" _banco="string" id="V-y-ZnDK1pdqojtrsZkq-2">
+        <object label="- cliente: Cliente&lt;div&gt;- banco: Banco&lt;/div&gt;&lt;div&gt;- taxaSaque: decimal&lt;/div&gt;&lt;div&gt;- taxaTransferencia: decimal&lt;/div&gt;&lt;div&gt;- anuidade: decimal&lt;/div&gt;&lt;div&gt;- codigoConta: string&lt;/div&gt;&lt;div&gt;- saldo: decimal&lt;/div&gt;&lt;div&gt;+ Cliente&lt;/div&gt;&lt;div&gt;+ Banco&lt;/div&gt;&lt;div&gt;+ TaxaSaque&lt;/div&gt;&lt;div&gt;+ TaxaTransferencia&lt;/div&gt;&lt;div&gt;+ Anuidade&lt;/div&gt;&lt;div&gt;+ CodigoConta&lt;/div&gt;&lt;div&gt;+ Saldo&lt;/div&gt;" _banco="string" id="V-y-ZnDK1pdqojtrsZkq-2">
           <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V-y-ZnDK1pdqojtrsZkq-1" vertex="1">
-            <mxGeometry y="26" width="170" height="114" as="geometry" />
+            <mxGeometry y="26" width="170" height="214" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="V-y-ZnDK1pdqojtrsZkq-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="V-y-ZnDK1pdqojtrsZkq-1" vertex="1">
-          <mxGeometry y="140" width="170" height="8" as="geometry" />
+          <mxGeometry y="240" width="170" height="8" as="geometry" />
         </mxCell>
         <mxCell id="V-y-ZnDK1pdqojtrsZkq-4" value="+ sacar()&lt;div&gt;+ transferir()&lt;/div&gt;&lt;div&gt;+ depositar()&lt;/div&gt;&lt;div&gt;+ verificarSaldo()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V-y-ZnDK1pdqojtrsZkq-1" vertex="1">
-          <mxGeometry y="148" width="170" height="72" as="geometry" />
+          <mxGeometry y="248" width="170" height="72" as="geometry" />
         </mxCell>
         <mxCell id="jJWzauPY2B2Ychn6FYt0-1" value="Cartao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="30" width="160" height="168" as="geometry" />
+          <mxGeometry x="230" y="30" width="160" height="188" as="geometry" />
         </mxCell>
-        <mxCell id="jJWzauPY2B2Ychn6FYt0-2" value="- conta: Conta&lt;div&gt;&lt;div&gt;- validade: date&lt;/div&gt;&lt;div&gt;- cvv: int&lt;/div&gt;&lt;div&gt;- numero: int&lt;/div&gt;&lt;div&gt;- nome: string&lt;/div&gt;&lt;div&gt;+ Conta&lt;/div&gt;&lt;div&gt;+ Banco&lt;/div&gt;&lt;div&gt;+ Cliente&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jJWzauPY2B2Ychn6FYt0-1" vertex="1">
-          <mxGeometry y="26" width="160" height="134" as="geometry" />
+        <mxCell id="jJWzauPY2B2Ychn6FYt0-2" value="- conta: Conta&lt;div&gt;&lt;div&gt;- validade: date&lt;/div&gt;&lt;div&gt;- cvv: int&lt;/div&gt;&lt;div&gt;- numero: int&lt;/div&gt;&lt;div&gt;- nome: string&lt;/div&gt;&lt;div&gt;+ Conta&lt;/div&gt;&lt;div&gt;+ Validade&lt;/div&gt;&lt;div&gt;+ Cvv&lt;/div&gt;&lt;div&gt;+ Numero&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jJWzauPY2B2Ychn6FYt0-1" vertex="1">
+          <mxGeometry y="26" width="160" height="154" as="geometry" />
         </mxCell>
         <mxCell id="jJWzauPY2B2Ychn6FYt0-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="jJWzauPY2B2Ychn6FYt0-1" vertex="1">
-          <mxGeometry y="160" width="160" height="8" as="geometry" />
+          <mxGeometry y="180" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="jJWzauPY2B2Ychn6FYt0-5" value="Banco" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="30" width="160" height="148" as="geometry" />
+          <mxGeometry x="400" y="30" width="160" height="158" as="geometry" />
         </mxCell>
-        <mxCell id="jJWzauPY2B2Ychn6FYt0-6" value="- nome: string&lt;div&gt;- codigoBanco: string&lt;/div&gt;&lt;div&gt;- cnpj: string&lt;/div&gt;&lt;div&gt;- agencia: int&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;+ Cnpj&lt;/div&gt;&lt;div&gt;+ Agencia&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jJWzauPY2B2Ychn6FYt0-5" vertex="1">
-          <mxGeometry y="26" width="160" height="114" as="geometry" />
+        <mxCell id="jJWzauPY2B2Ychn6FYt0-6" value="- nome: string&lt;div&gt;- codigoBanco: string&lt;/div&gt;&lt;div&gt;- cnpj: string&lt;/div&gt;&lt;div&gt;- agencia: Agencia&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;+ Codigo&lt;/div&gt;&lt;div&gt;+ Cnpj&lt;/div&gt;&lt;div&gt;+ Agencia&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jJWzauPY2B2Ychn6FYt0-5" vertex="1">
+          <mxGeometry y="26" width="160" height="124" as="geometry" />
         </mxCell>
         <mxCell id="jJWzauPY2B2Ychn6FYt0-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="jJWzauPY2B2Ychn6FYt0-5" vertex="1">
-          <mxGeometry y="140" width="160" height="8" as="geometry" />
+          <mxGeometry y="150" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4OslB2eF-CjLVjbjGeAa-1" value="Agencia" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="30" width="160" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="4OslB2eF-CjLVjbjGeAa-2" value="- codigoAgencia: string&lt;div&gt;- nome: string&lt;/div&gt;&lt;div&gt;+ Codigo&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="4OslB2eF-CjLVjbjGeAa-1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="4OslB2eF-CjLVjbjGeAa-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4OslB2eF-CjLVjbjGeAa-1">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
