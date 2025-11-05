@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Página-1" id="cBQcUYq1oYgDmPjxSbHU">
-        <mxGraphModel dx="704" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="537" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -9,7 +9,7 @@
                         <mxRectangle x="180" y="40" width="70" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <object label="- cliente: Cliente&lt;div&gt;- banco: Banco&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;l&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- codigoConta: string&lt;/div&gt;&lt;div&gt;- saldo: decimal&lt;/div&gt;&lt;div&gt;+ Cliente&lt;/div&gt;&lt;div&gt;+ Banco&lt;/div&gt;&lt;div&gt;+ CodigoConta&lt;/div&gt;&lt;div&gt;+ Saldo&lt;/div&gt;" _banco="string" id="V-y-ZnDK1pdqojtrsZkq-2">
+                <object label="- cliente: Cliente&lt;div&gt;- banco: Banco&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;l&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- codigoConta: string&lt;/div&gt;&lt;div&gt;- saldo: decimal&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" _banco="string" id="V-y-ZnDK1pdqojtrsZkq-2">
                     <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="V-y-ZnDK1pdqojtrsZkq-1" vertex="1">
                         <mxGeometry y="26" width="170" height="134" as="geometry"/>
                     </mxCell>
@@ -21,9 +21,9 @@
                     <mxGeometry y="168" width="170" height="72" as="geometry"/>
                 </mxCell>
                 <mxCell id="jJWzauPY2B2Ychn6FYt0-5" value="Banco" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="360" y="140" width="160" height="158" as="geometry"/>
+                    <mxGeometry x="360" y="170" width="160" height="158" as="geometry"/>
                 </mxCell>
-                <mxCell id="jJWzauPY2B2Ychn6FYt0-6" value="- nome: string&lt;div&gt;- codigoBanco: string&lt;/div&gt;&lt;div&gt;- cnpj: string&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;+ Codigo&lt;/div&gt;&lt;div&gt;+ Cnpj&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jJWzauPY2B2Ychn6FYt0-5" vertex="1">
+                <mxCell id="jJWzauPY2B2Ychn6FYt0-6" value="- nome: string&lt;div&gt;- codigoBanco: string&lt;/div&gt;&lt;div&gt;- cnpj: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jJWzauPY2B2Ychn6FYt0-5" vertex="1">
                     <mxGeometry y="26" width="160" height="124" as="geometry"/>
                 </mxCell>
                 <mxCell id="jJWzauPY2B2Ychn6FYt0-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="jJWzauPY2B2Ychn6FYt0-5" vertex="1">
@@ -32,7 +32,7 @@
                 <mxCell id="4OslB2eF-CjLVjbjGeAa-5" value="Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="640" y="370" width="150" height="158" as="geometry"/>
                 </mxCell>
-                <mxCell id="4OslB2eF-CjLVjbjGeAa-6" value="- nome: string&lt;div&gt;- cpf: string&lt;/div&gt;&lt;div&gt;- telefone: string&lt;/div&gt;&lt;div&gt;- endereco: string&lt;/div&gt;&lt;div&gt;+ Nome&lt;/div&gt;&lt;div&gt;+ Cpf&lt;/div&gt;&lt;div&gt;+ Telefone&lt;/div&gt;&lt;div&gt;+ Endereco&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4OslB2eF-CjLVjbjGeAa-5" vertex="1">
+                <mxCell id="4OslB2eF-CjLVjbjGeAa-6" value="- nome: string&lt;div&gt;- cpf: string&lt;/div&gt;&lt;div&gt;- telefone: string&lt;/div&gt;&lt;div&gt;- endereco: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4OslB2eF-CjLVjbjGeAa-5" vertex="1">
                     <mxGeometry y="26" width="150" height="124" as="geometry"/>
                 </mxCell>
                 <mxCell id="4OslB2eF-CjLVjbjGeAa-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="4OslB2eF-CjLVjbjGeAa-5" vertex="1">
@@ -59,7 +59,7 @@
                         <mxRectangle x="180" y="40" width="70" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <object label="- cliente: Cliente&lt;div&gt;- banco: Banco&lt;/div&gt;&lt;div&gt;- taxaSaque: decimal&lt;/div&gt;&lt;div&gt;- taxaTransferencia: decimal&lt;/div&gt;&lt;div&gt;- tarifa: decimal&lt;/div&gt;&lt;div&gt;- codigoConta: string&lt;/div&gt;&lt;div&gt;- saldo: decimal&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" _banco="string" id="4OslB2eF-CjLVjbjGeAa-22">
+                <object label="- cliente: Cliente&lt;div&gt;- banco: Banco&lt;/div&gt;&lt;div&gt;- taxaSaque: decimal&lt;/div&gt;&lt;div&gt;- taxaTransferencia: decimal&lt;/div&gt;&lt;div&gt;- codigoConta: string&lt;/div&gt;&lt;div&gt;- saldo: decimal&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" _banco="string" id="4OslB2eF-CjLVjbjGeAa-22">
                     <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4OslB2eF-CjLVjbjGeAa-21" vertex="1">
                         <mxGeometry y="26" width="170" height="114" as="geometry"/>
                     </mxCell>
@@ -75,7 +75,7 @@
                         <mxRectangle x="180" y="40" width="70" height="30" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <object label="- cliente: Cliente&lt;div&gt;- banco: Banco&lt;/div&gt;&lt;div&gt;- tarifa: decimal&lt;/div&gt;&lt;div&gt;- codigoConta: string&lt;/div&gt;&lt;div&gt;- saldo: decimal&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" _banco="string" id="4OslB2eF-CjLVjbjGeAa-26">
+                <object label="- cliente: Cliente&lt;div&gt;- banco: Banco&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;- codigoConta: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- saldo: decimal&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" _banco="string" id="4OslB2eF-CjLVjbjGeAa-26">
                     <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4OslB2eF-CjLVjbjGeAa-25" vertex="1">
                         <mxGeometry y="26" width="170" height="94" as="geometry"/>
                     </mxCell>
